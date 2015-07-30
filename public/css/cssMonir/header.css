@@ -1,0 +1,40 @@
+.header{  
+     margin-bottom: 10px;
+
+}
+
+.sv-header-logo
+    {
+      width: 100%;
+      height: 100%;
+      /*height: 100px;*/
+      vertical-align: center;
+      margin-top: 0;
+      padding-right: 10px;
+      margin-bottom: 2px;
+    } 
+    
+    .sv-logo-img{
+       /*padding-top: 16px; */
+       /*margin-top: 0;*/
+    }
+    .sv-header-top-adv_col{
+
+     padding-left: 0;
+     padding-right: 15px;
+    }
+.sv-header-top-adv{
+    margin-top: 5px;
+     /*border: 1px solid navy;*/
+     width: 100%;
+     height: 100%;
+      }
+  .sv-header-top-adv-img{
+    /*border: 1px solid navy;*/
+    width: 100%;
+    height: 90%;
+      }
+
+      .sv-header-logoo{
+        padding: 0;
+      }

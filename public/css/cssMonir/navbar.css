@@ -1,0 +1,224 @@
+.myNavBar{
+
+    }
+
+.navMenu1
+    {
+      color: red;
+      /*background: rgb(0, 102, 153);*/
+      /*background: rgb(0, 0, 0);*/
+      background: #0d9be8; /* Old browsers */
+      background: -moz-linear-gradient(top,  #0d9be8 0%, #0a74ad 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0d9be8), color-stop(100%,#0a74ad)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #0d9be8 0%,#0a74ad 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #0d9be8 0%,#0a74ad 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #0d9be8 0%,#0a74ad 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  #0d9be8 0%,#0a74ad 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d9be8', endColorstr='#0a74ad',GradientType=0 ); /* IE6-9 */
+      height: 5%;
+    } 
+
+    .btn-color{
+      background: #0C8BD0;
+      color: #fff;
+    }
+
+    .nopadd{
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-bottom: -20px;
+    }
+    
+.navMenu2
+    {
+        margin-bottom: 1px;
+        margin-top: 2px;
+       
+    } 
+    .nav_menu2_div{
+        /*margin-right: -15px;*/
+        /*padding-right: -15px;*/
+        margin-bottom: -20px;
+    }
+    .nav_menu2_nav{
+        margin-right: 14px;
+        padding-right: -13px;
+        border: .5px solid navy;
+    }
+    .navMenu2 .container{
+        display: block;
+        position: relative;
+        /*background: #fff;*/
+        height: 70%;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .navMenu2 .container img{
+        background: #fff;
+        display: inline-block;
+        position: relative;;
+    }
+
+    .serve{
+        padding-left: 11px;
+    }
+
+.clear{
+    clear: both;
+}
+/* menu image splites css start */
+
+    .menu_icon {
+      display: inline-block;
+      vertical-align: top;
+      overflow: hidden;
+      margin: 0px 2.5px 0px 2.5px;
+      width: 96px;
+      height: 60px;
+      font-size: 0;
+      text-indent: -9999px;
+    }
+    .component_menu {
+      text-align: center;
+    }
+    .icon-slide_menu {
+      position: relative;
+    }
+
+    .icon-slide_menu::before,
+    .icon-slide_menu::after {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../../img/menu/sv_image_sprit_menu.png);
+      background-image: url(../../img/menu/sv_image_sprit_menu.png), none;
+      content: "";
+      -webkit-transition: left 0.3s;
+              transition: left 0.3s;
+    }
+
+    .icon-slide_menu::before {
+      left: 0;
+      background-color: #fff;
+    }
+
+    .icon-slide_menu::after {
+      left: -100%;
+    }
+
+    .icon-slide_menu:hover::before {
+      left: 100%;
+    }
+
+    .icon-slide_menu:hover::after {
+      left: 0;
+    }
+
+    /* Apparel & Leather */
+    .icon-slide_menu.btn_apparel_leather::before,
+    .icon-slide_menu.btn_apparel_leather::after {
+      background-position: 0 0;
+    }
+
+    .icon-slide_menu.btn_apparel_leather::after {
+      background-color: #fff;
+    }
+
+    /* Auction & Tender */
+    .icon-slide_menu.btn_auction_tender::before,
+    .icon-slide_menu.btn_auction_tender::after {
+      background-position: -96px 0;
+    }
+
+    .icon-slide_menu.btn_auction_tender::after {
+      background-color: #fff;
+    }
+
+    /* Auto & Vehicles */
+    .icon-slide_menu.btn_auto_vehicles::before,
+    .icon-slide_menu.btn_auto_vehicles::after {
+      background-position: -192px 0;
+    }
+
+    .icon-slide_menu.btn_auto_vehicles::after {
+      background-color: #fff;
+    }
+
+    /* Education & Job */
+    .icon-slide_menu.btn_education_job::before,
+    .icon-slide_menu.btn_education_job::after {
+      background-position: -288px 0;
+    }
+
+    .icon-slide_menu.btn_education_job::after {
+      background-color: #fff;
+    }
+
+    /* Electronics & Electrical */
+    .icon-slide_menu.btn_electronics_electrical::before,
+    .icon-slide_menu.btn_electronics_electrical::after {
+      background-position: -384px 0;
+    }
+
+    .icon-slide_menu.btn_electronics_electrical::after {
+      background-color: #fff;
+    }
+    /* Food Drinks & Agro */
+    .icon-slide_menu.btn_food_drinks_agro::before,
+    .icon-slide_menu.btn_food_drinks_agro::after {
+      background-position: -480px 0;
+    }
+
+    .icon-slide_menu.btn_food_drinks_agro::after {
+      background-color: #fff;
+    }
+    /* Furniture & Decoration */
+    .icon-slide_menu.btn_furniture_decoration::before,
+    .icon-slide_menu.btn_furniture_decoration::after {
+      background-position: -576px 0;
+    }
+
+    .icon-slide_menu.btn_furniture_decoration::after {
+      background-color: #fff;
+    }
+    /* Industrial Plant & Machine */
+    .icon-slide_menu.btn_industrial_plant_machine::before,
+    .icon-slide_menu.btn_industrial_plant_machine::after {
+      background-position: -672px 0;
+    }
+
+    .icon-slide_menu.btn_industrial_plant_machine::after {
+      background-color: #fff;
+    }
+    /* Land & House */
+    .icon-slide_menu.btn_land_house::before,
+    .icon-slide_menu.btn_land_house::after {
+      background-position: -768px 0;
+    }
+
+    .icon-slide_menu.btn_land_house::after {
+      background-color: #fff;
+    }
+    /* Others */
+    .icon-slide_menu.btn_others::before,
+    .icon-slide_menu.btn_others::after {
+      background-position: -864px 0;
+    }
+
+    .icon-slide_menu.btn_others::after {
+      background-color: #fff;
+    }
+    /* Service’s */
+    .icon-slide_menu.btn_services::before,
+    .icon-slide_menu.btn_services::after {
+      background-position: -960px 0;
+    }
+
+    .icon-slide_menu.btn_services::after {
+      background-color: #fff;
+    }
+/*menu image splites css end*/
+

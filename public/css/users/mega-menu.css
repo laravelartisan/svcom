@@ -1,0 +1,106 @@
+	.sv-navigation{
+			background: #fff;
+			font-family: raleway;
+			padding-bottom: 100px;
+			-webkit-box-shadow: 0 10px 6px -10px #777;
+			-moz-box-shadow: 0 10px 6px -10px #777;
+			 box-shadow: 0 10px 6px -10px #777;
+			}
+
+	.sv-title{
+		margin: 10px 0px 10px 0px;
+		font-size: 30px;
+	}
+	.sv-category, .sv-subcategory{
+		float: left;
+		margin: 10px;
+	}
+
+	.sv-category ul li, .sv-subcategory ul li{
+		border-bottom: 1px solid rgba(0,0,0,.09);
+		border-left: 2px solid #fff;
+		padding: 10px 0px 10px 5px;
+		width: 400px;
+	}
+	.sv-category ul li:hover, .sv-subcategory ul li:hover{
+		border-left: 2px solid #47975f;
+		background: #e7edee;
+	}
+
+	.sv-category ul a, .sv-subcategory ul a{
+		text-decoration: none;
+	}	
+
+	.sv-category ul a li , .sv-subcategory ul a li {
+		text-decoration: none;
+		color: #06A050;
+		font-size: 16px;
+		font-weight: bold; 
+	}
+
+	.sv-category ul a li:hover, .sv-subcategory ul a li:hover{
+		color: #006c2e;
+	}
+
+	span{
+		float: right;
+	}
+
+	.sv-cat-icon{
+		float: left;
+		color:#06A050;
+		padding-right: 10px;
+	}
+	.sv-help-quotation{
+		float: left;
+		margin: 40px 25px 0px 0px;
+		text-align: center;
+		background: rgba(0,0,0,.09);
+		border:2px solid #e7edee;
+		border-radius: 15px;
+
+	}
+
+	.sv-help-quotation h2{
+		color: #06A050;
+	}
+	.sv-help-quotation p{
+		background: #fff;
+		margin: 5px;
+		border-radius: 15px;
+		padding: 5px;
+		font-weight: bold;
+		color: #939393;
+	}
+	.flaticon-bells9{
+		color:red;
+		/*font-size: 50px;*/
+	}
+
+		@media(max-width: 1000px){
+			h3{
+				font-size: 20px;
+			}
+			.sv-category, .sv-subcategory{
+				float: left;
+				margin: 5px;
+			}
+
+			.sv-category ul li, .sv-subcategory ul li{
+				border-bottom: 1px solid rgba(0,0,0,.09);
+				border-left: 1px solid #fff;
+				padding: 10px 0px 10px 5px;
+				width: 300px;
+			}
+			
+			.sv-category ul li a, .sv-subcategory ul li a{
+				text-decoration: none;
+				color: #06A050;
+				font-size: 15px;
+				font-weight: bold; 
+			}
+
+			.sv-help-quotation{
+				border-radius: 5px;
+			}
+		}

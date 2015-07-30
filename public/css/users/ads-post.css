@@ -1,0 +1,124 @@
+/* ads post vvip, vippluse, free */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,vietnamese,latin-ext,cyrillic);
+
+ .sv-ads-vvip,.sv-ads-vippluse,.sv-ads-free{
+    text-align: center;
+    padding-left: 75px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background: #fff;
+    -webkit-box-shadow: 0 10px 6px -10px #777;
+    -moz-box-shadow: 0 10px 6px -10px #777;
+     box-shadow: 0 10px 6px -10px #777;
+}
+
+.sv-post-ads-title{
+    font-family: Raleway;
+    padding: 1em;
+    text-decoration:none;
+    text-align: center;
+}
+
+.sv-post-ads-head a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sv-post-ads-head a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #29b8e5;
+}
+
+.sv-post-ads-head{
+
+    margin-bottom: 3%;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 10px 6px -10px #777;
+    -moz-box-shadow: 0 10px 6px -10px #777;
+     box-shadow: 0 10px 6px -10px #777;
+}
+
+
+
+.sv-ads-ribbon:after, .sv-ads-ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    border:1.5em solid #c75440;
+}
+
+.sv-ads-ribbon:after {
+    border-right-color:transparent;
+}
+
+.sv-ads-ribbon:before {
+    border-left-color:transparent;
+}
+.sv-ads-ribbon a:link, .sv-ads-ribbon a:visited { 
+    color:#fff;
+    text-decoration:none;
+    float:left;
+    height:3.5em;
+    font-size: 14px;
+    overflow:hidden;
+}
+.sv-ads-ribbon span {
+    background:#29b8e5;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.sv-ads-ribbon a:hover span {
+    background:#FFD204;
+    color: #000;
+    margin-top:0;
+}
+
+.sv-ads-ribbon span:before {
+    content: "";
+    position:absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #9B8651;
+    border-bottom:0.5em solid #29b8e5;
+}
+
+.sv-ads-ribbon span:after {
+    content: "";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid #9B8651;
+    border-bottom:0.5em solid #29b8e5;
+}
+
+.post-ads-text{
+    /*display: block;*/
+    /*margin-top: 50px;*/
+    text-align: justify;
+    padding: 40px;
+    float: left;
+}
+
+.sv-tag{
+    /*font-family: lobster;
+    color:#1B3C99; */
+    font-weight: bolder;
+}
+
+.sv-tag:hover{
+    color:#000;
+}
